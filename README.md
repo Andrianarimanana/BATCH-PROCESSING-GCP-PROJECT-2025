@@ -71,5 +71,9 @@ curl "https://archive-api.open-meteo.com/v1/archive?latitude=-18.91&longitude=47
         +----------------------+
 ```
   ## Data modeling
+ We are going to build a **Star Schema** which comprises one fact and multiple dimension tables for our Data Warehouse.
+
+The Entity Relational Diagram (ERD) for the final Data Warehouse is represented in the following image:
+ ![The ERD](/images/Data_model.png "ERD edited from dbdiagram.io")
   ## Tools
   ## Running the project
