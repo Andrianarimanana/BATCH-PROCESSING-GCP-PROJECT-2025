@@ -102,3 +102,5 @@ The dashboard provides a clear, interactive view of weather and climate data col
 - Identify regions experiencing abnormal climate changes
 - Support agricultural and environmental planning with data-backed insights
 
+![Dashboard](/images/dashboard-weather.png "dashboaed wireframe")
+
