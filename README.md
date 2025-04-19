@@ -68,7 +68,7 @@ curl "https://archive-api.open-meteo.com/v1/archive?latitude=-18.91&longitude=47
         +----------------------+
         |   Looker Studio Dash |
         +----------------------+
-
+```
   ## Data modeling
   ## Tools
   ## Running the project
