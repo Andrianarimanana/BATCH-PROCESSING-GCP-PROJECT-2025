@@ -38,7 +38,8 @@ These APIs are RESTful, require no authentication, and are ideal for large-scale
 ```bash
 # Historical weather data for Antananarivo, Madagascar (2023)
 curl "https://archive-api.open-meteo.com/v1/archive?latitude=-18.91&longitude=47.54&start_date=2023-01-01&end_date=2023-12-31&daily=temperature_2m_max,precipitation_sum&timezone=Africa/Nairobi"
-
+```
+```
             +---------------------+
             |  Open-Meteo APIs    |
             +---------------------+
