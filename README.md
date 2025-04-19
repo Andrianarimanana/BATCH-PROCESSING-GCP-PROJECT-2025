@@ -15,6 +15,7 @@ End-to-end data pipeline on Google Cloud Platform for collecting, processing, an
   * [6. Run the Airflow DAGs](#6-run-the-airflow-dags)
   * [7. Visualise data on Looker Studio](#7-visualise-data-on-metabase)
   * [Manual DAGs triggering](#manual-dags-triggering)
+- [Dashboard Overview](#dashboard-overview)
 
   ## Overview
 The diagram below outlines the high-level architecture of the pipeline, illustrating the data flow from Data source to the visualization layer.
@@ -77,3 +78,27 @@ The Entity Relational Diagram (ERD) for the final Data Warehouse is represented 
  ![The ERD](/images/Data_model.png "ERD edited from dbdiagram.io")
   ## Tools
   ## Running the project
+  ## Dashboard Overview
+### 📊 Climate & Weather Insights
+
+The dashboard provides a clear, interactive view of weather and climate data collected from Open-Meteo APIs. It is designed to support climate risk analysis, decision-making, and model comparisons over time and geography.
+
+### 🎯 Key Features
+
+- **Dynamic Filters**: Filter by date range, region/location, and climate model/scenario.
+- **KPI Summary Cards**: Quickly view key climate indicators including:
+  - Average Maximum Temperature (°C)
+  - Total Precipitation (mm)
+  - Wind Speed and Solar Radiation
+  - Temperature and Precipitation Anomalies
+- **Time Series Visualizations**: Trends for temperature, rainfall, humidity, and anomalies.
+- **Geo Maps**: Visualize metrics geographically to detect regional patterns or risks.
+- **Model Comparison Charts**: Compare outputs from different weather/climate models (e.g., ENSEMBLE vs ERA5 vs SSP scenarios).
+- **Drilldown Table**: Detailed daily records with exportable views for deeper analysis.
+
+### 📌 Example Use Cases
+
+- Monitor historical and recent weather patterns across Madagascar
+- Identify regions experiencing abnormal climate changes
+- Support agricultural and environmental planning with data-backed insights
+
